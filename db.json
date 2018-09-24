@@ -1,11 +1,187 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    "id": 647,
+    "version": 0,
+    "company": {
+      "id": 1
+    },
+    "name": "James Test Fleet",
+    "status": "ENABLED",
+    "vehicles": [
+      {
+        "id": 19378,
+        "name": "Isuzu",
+        "companyId": 1,
+        "type": {
+          "id": 14411,
+          "companyId": 1,
+          "name": "Truck",
+          "code": "TRUCK",
+          "global": false
+        },
+        "registration": "BN99LT",
+        "registrationState": "New South Wales",
+        "vin": "",
+        "externalId": "BN99LT_J"
+      },
+      {
+        "id": 5940,
+        "name": "Val Test 2",
+        "companyId": 1,
+        "type": {
+          "id": 7,
+          "name": "Truck",
+          "code": "TRUCK",
+          "global": true
+        },
+        "registration": "VALTEST2",
+        "registrationState": "VIC",
+        "vin": "VALTEST2",
+        "engineNumber": "",
+        "make": "",
+        "model": ""
+      },
+      {
+        "id": 7064,
+        "name": "Anthonys B Double",
+        "companyId": 1,
+        "type": {
+          "id": 7,
+          "name": "Truck",
+          "code": "TRUCK",
+          "global": true
+        },
+        "registration": "AL123",
+        "registrationState": "VIC",
+        "vin": "AL 123",
+        "engineNumber": "",
+        "make": "",
+        "model": ""
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "version": 1,
+    "company": {
+      "id": 1
+    },
+    "name": "QMS",
+    "status": "ENABLED",
+    "vehicles": [
+      {
+        "id": 30,
+        "name": "Val Test",
+        "companyId": 1,
+        "type": {
+          "id": 2,
+          "name": "Car",
+          "code": "CAR",
+          "global": true
+        },
+        "registration": "VK001",
+        "registrationState": "VIC",
+        "vin": "12341234",
+        "engineNumber": "",
+        "make": "",
+        "model": ""
+      },
+      {
+        "id": 28,
+        "name": "PieterTest",
+        "companyId": 1,
+        "type": {
+          "id": 2,
+          "name": "Car",
+          "code": "CAR",
+          "global": true
+        },
+        "registration": "EZ12C",
+        "registrationState": "VIC",
+        "vin": "1234",
+        "engineNumber": "",
+        "make": "",
+        "model": ""
+      }
+    ]
+  },
+  {
+    "id": 867,
+    "version": 1,
+    "company": {
+      "id": 1
+    },
+    "name": "KineticTestFleet",
+    "status": "ENABLED",
+    "vehicles": [
+      {
+        "id": 1129,
+        "name": "V301-Test Car 1",
+        "companyId": 1,
+        "type": {
+          "id": 2,
+          "name": "Car",
+          "code": "CAR",
+          "global": true
+        },
+        "registration": "V301ONE",
+        "registrationState": "VIC",
+        "vin": "4321",
+        "engineNumber": "",
+        "make": "",
+        "model": ""
+      },
+      {
+        "id": 1769,
+        "name": "Test Vehicle",
+        "companyId": 1,
+        "type": {
+          "id": 1,
+          "name": "Bus",
+          "code": "BUS",
+          "global": true
+        },
+        "registration": "123456",
+        "registrationState": "ACT",
+        "vin": "123456",
+        "engineNumber": "",
+        "make": "",
+        "model": ""
+      },
+      {
+        "id": 2352,
+        "name": "PieterTestiFace",
+        "companyId": 1,
+        "type": {
+          "id": 2,
+          "name": "Car",
+          "code": "CAR",
+          "global": true
+        },
+        "registration": "321123",
+        "registrationState": "VIC",
+        "vin": "007",
+        "engineNumber": "",
+        "make": "",
+        "model": ""
+      },
+      {
+        "id": 2452,
+        "name": "Richards iFace",
+        "companyId": 1,
+        "type": {
+          "id": 7,
+          "name": "Truck",
+          "code": "TRUCK",
+          "global": true
+        },
+        "registration": "RJK83",
+        "registrationState": "QLD",
+        "vin": "1234567890",
+        "engineNumber": "",
+        "make": "",
+        "model": ""
+      }
+    ]
   }
-}
+]
